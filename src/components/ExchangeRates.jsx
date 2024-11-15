@@ -7,9 +7,9 @@ function ExchangeRates({ conversionRates, baseCurrency, setBaseCurrency }) {
 
   return (
     <div className="card shadow-sm p-4">
-      <h2>Exchange Rates (Base: {baseCurrency})</h2>
+      <h2 className="text-primary text-center fw-bolder">Exchange Rates (Base: {baseCurrency})</h2>
       <div className="mb-3">
-        <label htmlFor="baseCurrency" className="form-label">Base Currency:</label>
+        <label htmlFor="baseCurrency" className="form-label text-primary fw-bolder">Base Currency:</label>
         <select
           id="baseCurrency"
           className="form-select"

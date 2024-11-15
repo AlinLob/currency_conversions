@@ -24,13 +24,14 @@ function Converter({ baseCurrency, conversionRates }) {
 
   return (
     <div className="card shadow-sm p-4">
-      <h2>Convert Currency</h2>
-
+      <h2 className="text-center text-primary fw-bolder">Convert Currency</h2>
+      <br/>
       <div className="mb-3">
+      <label htmlFor="amount" className="form-label fw-bolder text-primary">Amount to Convert</label>
         <input
           type="number"
           className="form-control"
-          placeholder="Enter amount"
+          placeholder="Enter amount..."
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           onKeyPress={handleKeyPress}
@@ -71,7 +72,7 @@ function Converter({ baseCurrency, conversionRates }) {
         </select>
       </div>
 
-      <button className="btn btn-primary" onClick={handleConvert} disabled={!amount}>Convert</button>
+      <button className="btn btn-primary fw-bolder" onClick={handleConvert} disabled={!amount}>Convert</button>
 
       {result && <div className="mt-3 alert alert-info">{result}</div>}
     </div>
