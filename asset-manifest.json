@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AlinLob/currency_conversions/static/css/main.d221dc40.css",
-    "main.js": "/AlinLob/currency_conversions/static/js/main.28495895.js",
-    "index.html": "/AlinLob/currency_conversions/index.html",
-    "main.d221dc40.css.map": "/AlinLob/currency_conversions/static/css/main.d221dc40.css.map",
-    "main.28495895.js.map": "/AlinLob/currency_conversions/static/js/main.28495895.js.map"
+    "main.css": "/currency_conversions/static/css/main.d221dc40.css",
+    "main.js": "/currency_conversions/static/js/main.28495895.js",
+    "index.html": "/currency_conversions/index.html",
+    "main.d221dc40.css.map": "/currency_conversions/static/css/main.d221dc40.css.map",
+    "main.28495895.js.map": "/currency_conversions/static/js/main.28495895.js.map"
   },
   "entrypoints": [
     "static/css/main.d221dc40.css",
