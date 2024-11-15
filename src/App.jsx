@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchRates = async () => {
       try {
-        const response = await axios.get('https://v6.exchangerate-api.com/v6/37c110efe4ea89fc7acdc12f/latest/USD');
+        const response = await axios.get('https://v6.exchangerate-api.com/v6/e028ad9c727ec3314a1c145a/latest/USD');
         setConversionRates(response.data.conversion_rates);
       } catch (error) {
         console.error('Error fetching exchange rates:', error);
@@ -20,7 +20,7 @@ function App() {
   }, [baseCurrency]);
 
   return (
-    <Router>
+    <Router basename='/currency_conversions'>
       <div className="container mt-5">
         <nav className="mb-4">
           <Link to="/" className="btn btn-outline-primary me-2">Converter</Link>
